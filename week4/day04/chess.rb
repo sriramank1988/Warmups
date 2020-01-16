@@ -10,4 +10,4 @@ chess_str = ""
         chess_str = chess_str.concat(" ")
     end
 end
-puts chess_str
+puts chess_str 
