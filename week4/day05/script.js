@@ -14,10 +14,8 @@ var decrypt = function(str,num){
         }
         output += decryptChar;
     }
-
     document.querySelector("label").textContent = output
 }
-
 decrptBtn.addEventListener('click',function(){
     cipher = input.value
     decrypt(cipher,3)
