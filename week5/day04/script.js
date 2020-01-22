@@ -1,5 +1,3 @@
-console.log ("linked")
-
 var series_sum = function(num){
     var series = 0
     var divider = 1
@@ -10,7 +8,7 @@ var series_sum = function(num){
             series += (1.00/divider)
             divider +=3
         }
-        console.log(series.toFixed(2).toString())
+    console.log(series.toFixed(2).toString())
 }
 series_sum(0)
 series_sum(1)
