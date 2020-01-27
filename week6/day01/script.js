@@ -4,7 +4,7 @@ var swapCase = function(inputStr){
     for(var i = 0; i<inputStr.length; i++){
         if(inputStr[i] === inputStr[i].toLowerCase()){
             outputStr += inputStr[i].toUpperCase();
-        }else {
+        }else{
             outputStr += inputStr[i].toLowerCase();
         }
     }
