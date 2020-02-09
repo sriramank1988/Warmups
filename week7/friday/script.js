@@ -1,6 +1,6 @@
 var input = [20,1,-1,2,-2,3,3,5,5,1,2,4,20,4,-1,-2,5];
-var findUnique = (value, index, self) => {
-    return self.indexOf(value) === index;
+var findUnique = (value, index, objectItself) => {
+    return objectItself.indexOf(value) === index;
 }
 var getCount =  (num) => {
     var count = 0 ;
